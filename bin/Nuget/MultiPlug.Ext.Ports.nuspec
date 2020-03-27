@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MultiPlug.Ext.Ports</id>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <title>MultiPlug Extension to connect to local ports</title>
     <authors>British Systems</authors>
     <owners>British Systems</owners>
@@ -14,6 +14,7 @@
     <releaseNotes>* Functionality
 Connect to local serial ports.
 Change Log:
+1.0.9 Bug: Error during save
 1.0.8 Enhancement: 1. Allows Keys to be subscribed to for Read Events. 2. User Interface refreshed 3. LPT printer port I/O has been removed for now 4. WARN prevous previous settings maybe lost on upgrade.
 1.0.6 Enhancement: Applied latest base classes
 1.0.3 Enhancement: Use to access serial port and LPT printer port I/O
