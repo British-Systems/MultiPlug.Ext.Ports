@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MultiPlug.Ext.Ports</id>
+    <version>1.0.8</version>
+    <title>MultiPlug Extension to connect to local ports</title>
+    <authors>British Systems</authors>
+    <owners>British Systems</owners>
+    <!--<licenseUrl></licenseUrl>-->
+    <projectUrl>http://www.multiplug.uk/extensions/release-notes/?id=MultiPlug.Ext.Ports</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/British-Systems/MultiPlug.Ext.Ports/master/media/multiplug.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ports Extension for MultiPlug</description>
+    <releaseNotes>* Functionality
+Connect to local serial ports.
+Change Log:
+1.0.8 Enhancement: 1. Allows Keys to be subscribed to for Read Events. 2. User Interface refreshed 3. LPT printer port I/O has been removed for now 4. WARN prevous previous settings maybe lost on upgrade.
+1.0.6 Enhancement: Applied latest base classes
+1.0.3 Enhancement: Use to access serial port and LPT printer port I/O
+	</releaseNotes>
+    <copyright>British Systems 2020</copyright>
+    <tags>Edge Edge_Computing Fog_Computing Serial Serial_Port</tags>
+    <dependencies>
+      <dependency id="MultiPlug.Core" version="2.2.64" />
+    </dependencies>
+  </metadata>
+</package>
